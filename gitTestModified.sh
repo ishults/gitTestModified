@@ -2,7 +2,7 @@
 usage(){
     echo "Usage: `basename $0` [-h] [-r] [-t testOptions] [<directory>...]\n"
     echo '    -h      Show this help message.'
-    echo '    -r      Remove the default directories, and only use the ones provided.  Without the flag, the provided directories will be appended to the default list.'
+    echo '    -r      Only check the directories provided. Otherwise, the provided directories will be appended to the directory list.'
     echo '    -t      Options to pass to "grails test-app". Default: none.'
     echo '            See: http://grails.org/doc/latest/ref/Command%20Line/test-app.html'
 }
